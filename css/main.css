@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
 .header__menu {
     background-color: #ba0000;
     width: 100%;
@@ -76,10 +80,80 @@
 }
 
 .slider__wrapper {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0) 25%, #ce0a00 97%);
+    background: linear-gradient(-0.4turn, rgba(255, 255, 255, 0.0) 25%, #ce0a00 97%);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.slider__body {
+    min-height: 500px;
+    min-width: 600px;
+    margin: 180px 370px 
+}
+
+.slider__title {
+    padding: 10px 0px;
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+hr {
+    border: 0;
+    color: #ffcc00;
+    background-color: #ffcc00;
+    height: 4px;
+    width: 10%;
+}
+
+.slider__description {
+    padding: 10px 0px;
+    font-size: 20px;
+    color: #ffcc00;
+    font-weight: 400;
+}
+
+.slider__points {
+    margin-top: 5px;
+}
+
+.slider__points ul li {
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+.slider__buttons {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px
+}
+
+.slider__btn {
+    margin-right: 45px;
+    border: 4px solid white;
+    border-radius: 45px;
+    padding: 15px 25px;
+}
+
+.slider__btn a {
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.active {
+    border: 4px solid #ffcc00;
+    background-color: #ffcc00;
+    box-shadow: 0 0 10px 2px #ffcc00;
+}
+
+.active a{
+    color: #ce0a00;
 }
