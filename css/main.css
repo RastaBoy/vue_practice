@@ -1,0 +1,85 @@
+.header__menu {
+    background-color: #ba0000;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header__column {
+}
+
+.header__item {
+    padding: 6px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.header__item a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+
+.main__menu {
+    width: 100%;
+    height: 120px;
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu__logo {
+    margin-right: 100px;
+}
+
+.menu__logo img {
+    width: 150px;
+}
+
+.menu__items {
+    color: #ce0a00;
+    font-size: 16px;
+    margin: 0px 50px;
+}
+
+.menu__items ul li {
+    display: inline-block;
+    padding: 45px 20px;
+    font-weight: 600;
+}
+
+.menu__search {
+    border-radius: 100%;
+    background-color: #ce0a00;
+    padding: 14px;
+    box-shadow: 0 2px 5px 0 #ce0a00;
+}
+
+.menu__search i {
+    font-size: 20px;
+    color: white;
+}
+
+
+/*, linear-gradient(to bottom, rgb(255, 255, 255) 25%, #ce0a00 97%)*/
+.slider {
+    background: url('../img/dhl-bg-slider.png') center no-repeat;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+}
+
+.slider__wrapper {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0) 25%, #ce0a00 97%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
